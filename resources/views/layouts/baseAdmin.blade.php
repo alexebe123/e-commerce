@@ -165,7 +165,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('aboutAdmin')}}">
+              <a class="nav-link" href="">
                 <i class="ti-shield menu-icon"></i>
                 <span class="menu-title">About</span>
               </a>
@@ -196,7 +196,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{route('tabelpage')}}">
+              <a class="nav-link" href="">
                 <i class="ti-view-list-alt menu-icon"></i>
                 <span class="menu-title">Tables</span>
               </a>

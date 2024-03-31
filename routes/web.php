@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DetailController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,4 @@ Route::get('/shop',[ ShopController::class,"index"])->name("shop");
 Route::get('/detail',[ DetailController::class,"index"])->name("detail");
 Route::get('/cart',[ CartController::class,"index"])->name("cart");
 Route::get('/checkout',[ CheckoutController::class,"index"])->name("checkout");
+Route::get('/admin',[ AdminController::class,"index"])->name("admin");
